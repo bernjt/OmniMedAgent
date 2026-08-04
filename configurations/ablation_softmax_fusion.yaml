@@ -1,0 +1,30 @@
+model:
+  hidden_size: 1024
+  hypothesis_count: 50
+  focal_count: 100
+  strategy_count: 7
+  action_count: 23
+  conflict_threshold: 0.3
+planner:
+  max_steps: 7
+  information_gain_weight: 0.5
+  task_weight: 0.4
+  efficiency_weight: 0.01
+  ppo_clip: 0.2
+  gae_lambda: 0.95
+  kl_weight: 0.02
+train:
+  stage: rl
+  batch_size: 16
+  world_size: 8
+  learning_rate: 5e-7
+  weight_decay: 0.01
+  warmup_steps: 500
+  total_steps: 10000
+  precision: bf16
+  seed: 3407
+data:
+  manifest: data/manifest.csv
+  image_size: 448
+  tile_size: 256
+  text_length: 2048

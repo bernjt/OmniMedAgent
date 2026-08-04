@@ -1,0 +1,12 @@
+name: omni-med-agent
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.1.2
+  - pytorch-cuda=12.1
+  - pip=24.3.1
+  - pip:
+      - -r requirements.txt

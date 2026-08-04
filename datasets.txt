@@ -1,0 +1,5 @@
+MIMIC-IV 3.1 | PhysioNet Credentialed Health Data Use Agreement | https://physionet.org/content/mimiciv/
+eICU-CRD 2.0 | PhysioNet Credentialed Health Data Use Agreement | https://physionet.org/content/eicu-crd/
+CheXpert 1.0 | Stanford AIMI Research Use Agreement | https://stanfordmlgroup.github.io/competitions/chexpert/
+TCGA | GDC Data Use Agreement | https://portal.gdc.cancer.gov/
+HiRID 1.1.1 | PhysioNet Credentialed Health Data Use Agreement | https://physionet.org/content/hirid/

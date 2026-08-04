@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools==75.6.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "omni-med-agent"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["torch==2.1.2", "transformers==4.46.3", "numpy==1.26.4", "pandas==2.2.3", "pillow==11.0.0", "pyyaml==6.0.2", "scikit-learn==1.6.0", "scipy==1.14.1"]
+[project.scripts]
+omnimed-train = "omni_med_agent.cli.train:main"
+[tool.setuptools]
+package-dir = {"" = "code"}
+[tool.setuptools.packages.find]
+where = ["code"]
+[tool.ruff]
+line-length = 120
